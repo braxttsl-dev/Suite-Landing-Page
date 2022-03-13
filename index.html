@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Suite landing page</title>
+</head>
+
+<body>
+
+  <header>
+    <img class="header__logo" src="assets/logo.svg" alt="suite logo">
+    <button class="btn--secondary">Request Beta Access</button>
+  </header>
+
+  <section class="hero">
+    <div class="section__wrapper">
+      <div class="hero__wrapper">
+        <div class="hero__text">
+          <h1 class="hero__title">
+            A <span class="bold">super <span class="line_effect">solution</span></span> for your <span class="bold">business</span>.
+          </h1>
+          <p class="hero__body">Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.</p>
+          <button class="btn--primary">Request Beta Access</button>
+        </div>
+
+        <picture class="hero__image">
+          <source media="(max-width:767px)" srcset="assets/image-hero-landscape@2x.webp">
+          <source media="(min-width:768px) and (max-width:1023px)" srcset="assets/image-hero-portrait@2x.webp">
+          <source media="(min-width:1024px)" srcset="assets/image-hero-portrait@2x.webp">
+          <img src="assets/image-hero-landscape@2x.webp">
+
+        </picture>
+
+
+      </div>
+
+      <div class="hero__stats">
+        <p><span class="bold stats--bold">2K+</span>Companies</p>
+        <p><span class="bold stats--bold">8</span>Languages</p>
+        <p><span class="bold stats--bold">1.2M</span>Leads</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <picture class="testimonial__image">
+      <source media="(max-width:1023px)" srcset="assets/image-jeremy-small@2x.webp">
+      <source media="(min-width:1024px)" srcset="assets/image-jeremy-large@2x.webp">
+      <img src="assets/image-jeremy-small@2x.webp">
+    </picture>
+
+    <img class="testimonial__blur" src="assets/pattern-blur.svg">
+    <img class="testimonial__curved-line" src="assets/pattern-curved-line-2.svg">
+    <div class="testimonial__wrapper">
+      <h2 class="testimonial__header">It just <span class="bold">works.</span></h2>
+      <p class="testimonial__body">“I really like how it is an all-in-one solution that handle many of
+        the tasks that you would normally need separate tools to do the same
+        job. This thing is a miracle worker.”</p>
+      <p class="testimonial__name">Jeremy Robinson</p>
+      <p class="testimonial__title">CMO, Fylo</p>
+    </div>
+
+
+  </section>
+
+  <footer>
+    <img class="footer__logo" src="assets/logo.svg">
+    <p class="footer__body">Copyright - Suite</p>
+    <ul class="social__links">
+      <li>
+        <a href="#">
+          <img src="assets/icon-facebook.svg">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="assets/icon-twitter.svg">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="assets/icon-instagram.svg">
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
